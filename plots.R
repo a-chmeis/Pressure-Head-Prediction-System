@@ -128,7 +128,7 @@ a <- ggplot() + theme_minimal() +
   geom_line(data = sense, aes(x = Step, y = Temp.35cm, color = 'OBS'), size=1) +
   geom_line(data = temp5, aes(x = Step, y = temp, color = 'SIM'), size=1) +
   labs(x = 'Time [days]',
-       y = 'Soil temperature [ ºC]') +
+       y = 'Soil temperature [ ÂºC]') +
   scale_x_continuous(breaks = position, n.breaks = 6, labels = Date) +
   scale_color_manual(values = temp_colors)
 
@@ -144,7 +144,7 @@ b <- ggplot() + theme_minimal() +
   geom_line(data = sense, aes(x = Step, y = Temp.80cm, color = 'OBS'), size=1) +
   geom_line(data = temp6, aes(x = Step, y = temp, color = 'SIM'), size=1) +
   labs(x = 'Time [days]',
-       y = 'Soil temperature [ ºC]') +
+       y = 'Soil temperature [ ÂºC]') +
   scale_x_continuous(breaks = position, n.breaks = 6, labels = Date) +
   scale_color_manual(values = temp_colors)
 
