@@ -1,3 +1,13 @@
+## ---------------------------------------------------------------------------------------------------------------
+## Script name: Observation tools
+## Purpose of script: Construct observations record
+## Author: Arij Chmeis
+## Date Created: 2021-03-29
+## Copyright (c) Arij Chmeis, 2021
+## Email: achmeis1949@gmail.com
+## ----------------------------------------------------------------------------------------------------------------
+##
+
 
 import json
 import urllib.request
