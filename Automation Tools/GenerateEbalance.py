@@ -1,3 +1,13 @@
+## ---------------------------------------------------------------------------------------------------------------
+## Script name: Ebalance
+## Purpose of script: Generate Ebalance.in file
+## Author: Arij Chmeis
+## Date Created: 2021-03-29
+## Copyright (c) Arij Chmeis, 2021
+## Email: achmeis1949@gmail.com
+## ----------------------------------------------------------------------------------------------------------------
+## 
+
 import csv
 import math
 from datetime import datetime, timedelta
